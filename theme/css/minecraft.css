@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "MuseoSlab-500";
+    font-style: normal;
+    font-weight: normal;
+    src: url("webfonts/museoslab-500-webfont.eot?#iefix") format("embedded-opentype"), url("webfonts/museoslab-500-webfont.woff") format("woff"), url("webfonts/museoslab-500-webfont.ttf") format("truetype"), url("webfonts/museoslab-500-webfont.svg#museo_slab_500regular") format("svg");
+ }
+html,body {
+    min-height: 100%;
+}
+body {
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    background-image:url(../images/pozadie.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+    padding:0px;
+    margin: 0px;
+}
+.wrapper {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+     height: 300px;
+     background-image:url(../images/2-header.png);
+     background-repeat:no-repeat;
+}
+nav {
+    height: 60px;
+    background-image: url(../images/3-menu.png);
+}
+nav ul {
+    margin: 0;
+    padding: 18px 44px 15px 22px;
+    list-style-type: none;
+}
+nav ul li {
+   float: left;
+}
+nav ul li a {
+   font-family: MuseoSlab-500,Arial,sans-serif;
+   display: inline-block;
+   border-bottom-color: transparent;
+   border-bottom-style: solid;
+   border-bottom-width: 3px;
+   color: rgb(255, 255, 255);
+   font-size: 15px;
+   line-height: 24px;
+   vertical-align: middle;
+   text-align: justify;
+   text-decoration: none;
+   padding-bottom: 0px;
+   padding-left: 8px;
+   padding-right: 8px;
+   padding-top: 0px;
+   text-shadow: 0px 1px 1px #000000;
+   text-transform: uppercase;
+}
+nav ul li a:hover {
+   border-bottom: 3px solid #ffffff;
+
+}
+section {
+    background-image: url(../images/4-box.png);
+    min-height: 500px;
+}
+section .container {
+    margin: 15px;
+}
+section.content h2 {
+    font-family: MuseoSlab-500,Arial,sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    text-shadow: 0px 1px 1px #000000;
+}
+
+footer {
+    background-image:url(../images/5-bg-footer.png) ;
+}
+footer .box {
+    float: left;
+    height: 280px;
+    width: 280px;
+    background-image:url(../images/6-bg-footer-mini.png) ;
+    margin: 10px;
+    padding: 10px;
+}
+footer .box img {
+     height: 100px;
+     width: 100px;
+}
+footer .box h2 a {
+     font-family: MuseoSlab-500,Arial,sans-serif;
+     font-size: 15px;
+     color: #fdb000;
+}
+
+/*  ----------------
+    CLEARFIX
+    ----------------
+ */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+
+
+/*  ----------------
+    ARTICLES
+    ----------------
+ */
+.article{
+    padding: 15px;
+}
+.article img {
+    height: 100px;
+    width: 100px;
+    margin-right: 15px;
+    float: left;
+}
+.article h2 a {
+    font-family: MuseoSlab-500,Arial,sans-serif;
+    font-size: 18px;
+    color: #fdb000;
+}
+.article p {
+   font-size: 12px;
+}
+
+/*  ----------------
+    GALLERY
+    ----------------
+ */
+ .gallery {
+	display: flex;
+	flex-wrap: wrap;
+	position:relative;
+}
+.gallery .image-one {
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.gallery .image-one img {
+    width: 85%;
+    border: solid 1px #3be6cf
+}
+
+.color {
+    color: darksalmon;
+}
+.notify {
+    padding: 6px;
+    color: #ffffff;
+}
+.notify.success {
+    background-color: forestgreen;
+}
+.notify.danger {
+    background-color: crimson;
+}

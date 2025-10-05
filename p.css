@@ -1,0 +1,104 @@
+
+.place {
+    width: 800px;
+	border: 10px solid;
+	border-color: #D2AB6F #8C6529;
+    margin-left: auto;
+    margin-right: auto;
+    height: 540px;
+    margin-bottom: 20px;
+}
+.field {
+    display: flex;
+    background-color: #0d5f2f;
+    padding: 20px;
+}
+.package {
+    flex: 1;
+}
+.right-box {
+    position: relative;
+    flex: 3;
+}
+
+.right-box .wallet {
+    position: absolute;
+    top: -10px;
+    right: -15px;
+    padding: 10px;
+    color: black;
+    font-size: 25px;
+    border-radius: 16px;
+    background-color: gold;
+}
+
+.package img {
+    cursor: pointer;
+    height: 180px;
+    padding-right: 20px;
+}
+.buttons {
+    text-align: center;
+}
+.buttons img {
+    cursor: pointer;
+    margin: 10px;
+    width: 70px;
+    border: 10px solid green;
+}
+
+.chips {
+    text-align: center;
+}
+
+.chips span {
+    display: inline-block;
+    margin: 5px;
+    height: 70px;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+}
+.chip {
+    background: no-repeat center;
+    background-size: cover;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.chips .active {
+    color: gold;
+    font-size: 20px;
+}
+
+.chip.b-purple {
+    background-image: url('cards/purple-chip-b.png');
+}
+
+.chip.b-red {
+    background-image: url('cards/red-chip-b.png');
+  }
+
+.chip.b-green {
+    background-image: url('cards/green-chip-b.png');
+}
+
+.chip.b-black {
+    background-image: url('cards/black-chip-b.png');
+}
+
+.chip.b-blue {
+    background-image: url('cards/blue-chip-s.png');
+}
+
+.table {
+    overflow: hidden;
+    background-color: #14a327;
+    padding: 40px;
+}
+.table img {
+    cursor: pointer;
+    height: 150px;
+    padding-right: 20px;
+}

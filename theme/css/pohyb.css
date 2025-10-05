@@ -1,0 +1,31 @@
+.buttons {
+    text-align: center;
+}
+#btn-left {
+    font-size: 30px;
+    background-color: #fff;
+}
+#btn-right {
+    font-size: 30px;
+    background-color: #fff;
+}
+#btn-left:hover {
+    background-color: #255;    
+}
+#btn-right:hover {
+    background-color: #255;    
+}
+#btn-up {
+    font-size: 30px;
+    background-color: #fff;
+}
+#btn-down {
+    font-size: 30px;
+    background-color: #fff;
+}
+#btn-down:hover {
+    background-color: #255;
+}
+#btn-up:hover {
+    background-color: #255;
+}

@@ -1,0 +1,24 @@
+ul {
+    list-style-type: none;
+}
+li {
+    margin:30px;
+    width:200px;
+
+}
+a {
+    background-color: blue;
+    color: whitesmoke;
+    border-radius: 40px ;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+    text-decoration: none;
+    font-weight: bold;
+    display:block;
+    
+}
+a:hover {
+   background-color: #102536
+}
